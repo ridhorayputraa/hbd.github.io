@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let birthday = "oct 29, 2021 00:00:00",
+    let birthday = "nov 17, 2021 20:55:00",
         countDown = new Date(birthday).getTime(),
         x = setInterval(function() {    
   
@@ -22,7 +22,7 @@
                 countdown = document.getElementById("countdown"),
                 content = document.getElementById("content");
   
-            headline.innerText = "Selamat Ulang Tahun Lemon";
+            headline.innerText = "Riski Kuntul";
             countdown.style.display = "none";
             content.style.display = "block";
   
